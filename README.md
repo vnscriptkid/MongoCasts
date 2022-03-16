@@ -1,3 +1,5 @@
 # MongoCasts
 
-Each example from the course can be found within this repo. You can either look at the files in a completed state, or check out the changes that were made in a particular section by clicking on one of the links below.
+- update many records:
+  - **naive**: fetch many to server, then update each
+  - better: use update operator https://docs.mongodb.com/manual/reference/operator/update/
