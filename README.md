@@ -13,4 +13,8 @@ User.findOne({ name: 'Joe' })
 // - trip 2: get posts
 ```
   
-
+- avoid cyclic imports:
+```js
+// import BlogPost from 'models/BlogPost';
+mongoose.model('BlogPost')
+```
