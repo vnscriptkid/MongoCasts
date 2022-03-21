@@ -18,3 +18,12 @@ User.findOne({ name: 'Joe' })
 // import BlogPost from 'models/BlogPost';
 mongoose.model('BlogPost')
 ```
+
+- types of operators:
+  - update
+  - query
+
+- fulltext search
+  - index first
+  - `$text`
+  - partial search works on stem word
