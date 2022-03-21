@@ -27,3 +27,6 @@ mongoose.model('BlogPost')
   - index first
   - `$text`
   - partial search works on stem word
+
+- mongoose gotchas
+  - batch updates: `multi` option
